@@ -14,8 +14,8 @@ blueprint:
       selector:
         entity:
           domain: binary_sensor
-          device_class: window
-          # multiple: false
+          #device_class: window
+          multiple: true
     minimum_open_time:
       name: Miniumum open time
       description: Time in seconds to wait until the automation is triggered
