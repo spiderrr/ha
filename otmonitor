@@ -10,7 +10,7 @@ mqtt:
   broker: 192.168.0.39
   port: 1883
   username: mqtt
-  password: mqtt
+  password: 
   client_id: otmonitor
   action_topic: actions/otmonitor
   event_topic: events/central_heating/otmonitor
@@ -23,7 +23,7 @@ email:
   recipient: tomasz.baniak@gmail.com
   sender: spiderlancet@gmail.com
   user: spiderlancet
-  password: Thebest4$
+  password: 
   server: smtp.googlemail.com
   port: 465
   secure: SSL
