@@ -1,0 +1,37 @@
+otgw:
+  type: tcp
+  host: 192.168.1.28
+  port: 6638
+  device: /dev/serial0
+  relay_port: 7686
+mqtt:
+  enable: true
+  autoconfig: false
+  broker: 192.168.0.39
+  port: 1883
+  username: mqtt
+  password: mqtt
+  client_id: otmonitor
+  action_topic: actions/otmonitor
+  event_topic: events/central_heating/otmonitor
+  data_format: raw
+  all_messages: true
+  qos: 1
+  retransmit: 10
+email:
+  enable: true
+  recipient: tomasz.baniak@gmail.com
+  sender: spiderlancet@gmail.com
+  user: spiderlancet
+  password: Thebest4$
+  server: smtp.googlemail.com
+  port: 465
+  secure: SSL
+tspeak:
+  enable: true
+  key: BOFTCG1Q771F8DMW
+  interval: 120
+  sync: true
+html_templates:
+  enabled: false
+  editable: false
