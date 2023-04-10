@@ -1,4 +1,4 @@
-60; SetOption26 1; SetOption0 0; poweronstate 0; mem1 0; mem2 25; mem3 23; var1 0
+Backlog SwitchMode1 3; Rule 1; Rule 4; TelePeriod 60; SetOption26 1; SetOption0 0; poweronstate 0; mem1 0; mem2 25; mem3 23; var1 0
 Rules
 
 Rule1 
