@@ -23,3 +23,4 @@ Rule1
   ON event#ctrl_ready>%mem1% DO var1 0 ENDON 
   ON event#temp_demand>%mem2% DO Power1 0 ENDON 
   ON event#temp_demand<%mem3% DO Power1 %var1% ENDON
+#https://tasmota.github.io/docs/Rules/#simple-thermostat-example
