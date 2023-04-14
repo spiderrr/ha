@@ -30,3 +30,1458 @@ Rule1
 15:00:04.690 MQT: stat/tasmota_291781/RESULT = {"Rule1":{"State":"OFF","Once":"OFF","StopOnError":"OFF","Length":226,"Free":285,"Rules":"ON DS18B20#temperature>55 DO backlog Power1 1; rule1 0; delay 6000; ENDON ON DS18B20#temperature>80 DO backlog  Power1 0 ; rule1 0 ; delay 6000; ENDON ON DS18B20#temperature<40 DO backlog Power1 0 ; rule1 0 ; delay 6000; ENDON"}}
 15:00:04.698 MQT: stat/tasmota_291781/RESULT = {"Rule2":{"State":"ON","Once":"OFF","StopOnError":"OFF","Length":34,"Free":477,"Rules":"on Time#Minute|5  do rule1 1 endon"}}
 15:00:04.704 MQT: stat/tasmota_291781/RESULT = {"Rule3":{"State":"OFF","Once":"OFF","StopOnError":"OFF","Length":0,"Free":511,"Rules":""}}
+
+
+15:46:39.262 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:46:39.265 MQT: stat/tasmota_291781/POWER2 = OFF
+15:46:39.772 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:46:39.776 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:46:40.074 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:46:40.502 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:46:40.656 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.3"
+15:46:40.686 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:46:40.727 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:46:40.735 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:46:40.950 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:46:40.994 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:46:41.003 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:46:40","Uptime":"0T00:08:41","UptimeSec":521,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":149,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":50,"Signal":-75,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:46:41.029 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:46:41.032 MQT: stat/tasmota_291781/POWER2 = OFF
+15:46:41.040 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:46:41","Uptime":"0T00:08:42","UptimeSec":522,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":149,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":48,"Signal":-76,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:46:41.071 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:46:41.075 MQT: stat/tasmota_291781/POWER2 = OFF
+15:46:41.582 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:46:41.585 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:46:41.646 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:46:41.897 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:46:41.967 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:46:42.001 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:46:42.043 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:46:42.051 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:46:42.267 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:46:42.311 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:46:42.324 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:46:42","Uptime":"0T00:08:43","UptimeSec":523,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":133,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":46,"Signal":-77,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:46:42.351 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:46:42.354 MQT: stat/tasmota_291781/POWER2 = OFF
+15:46:42.361 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:46:42","Uptime":"0T00:08:43","UptimeSec":523,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":133,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":46,"Signal":-77,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:46:42.393 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:46:42.396 MQT: stat/tasmota_291781/POWER2 = OFF
+15:46:42.903 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:46:42.908 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:46:43.160 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:46:43.375 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:46:43.588 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:46:43.830 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:46:43.872 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:46:43.880 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:46:44.095 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:46:44.140 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:46:44.152 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:46:44","Uptime":"0T00:08:45","UptimeSec":525,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":132,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":50,"Signal":-75,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:46:44.179 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:46:44.183 MQT: stat/tasmota_291781/POWER2 = OFF
+15:46:44.189 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:46:44","Uptime":"0T00:08:45","UptimeSec":525,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":132,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":48,"Signal":-76,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:46:44.220 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:46:44.224 MQT: stat/tasmota_291781/POWER2 = OFF
+15:46:44.731 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:46:44.735 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:46:44.798 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:46:44.819 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:46:45.023 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:46:45.222 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:46:45.263 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:46:45.271 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:46:45.486 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:46:45.532 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:46:45.544 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:46:45","Uptime":"0T00:08:46","UptimeSec":526,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":118,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":50,"Signal":-75,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:46:45.570 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:46:45.574 MQT: stat/tasmota_291781/POWER2 = OFF
+15:46:45.581 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:46:45","Uptime":"0T00:08:46","UptimeSec":526,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":118,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":50,"Signal":-75,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:46:45.614 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:46:45.617 MQT: stat/tasmota_291781/POWER2 = OFF
+15:46:46.123 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:46:46.127 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:46:46.189 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:46:46.389 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:46:46.639 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:46:46.840 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:46:46.880 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:46:46.888 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:46:46.922 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:46:46.941 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:46:46.985 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:46:46.997 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:46:46","Uptime":"0T00:08:47","UptimeSec":527,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":142,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":46,"Signal":-77,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:46:47.001 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:46:47.004 MQT: stat/tasmota_291781/POWER2 = OFF
+15:46:47.012 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:46:47","Uptime":"0T00:08:48","UptimeSec":528,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":142,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":44,"Signal":-78,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:46:47.042 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:46:47.046 MQT: stat/tasmota_291781/POWER2 = OFF
+15:46:47.553 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:46:47.557 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:46:47.615 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:46:47.866 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:46:48.139 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:46:48.181 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:46:48.189 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:46:48.223 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:46:48.241 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:46:48.492 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:46:48.693 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:46:48.734 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:46:48.742 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:46:48.774 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:46:48.795 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:46:48.840 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:46:48.852 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:46:48","Uptime":"0T00:08:49","UptimeSec":529,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":100,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":50,"Signal":-75,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:46:48.879 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:46:48.882 MQT: stat/tasmota_291781/POWER2 = OFF
+15:46:48.889 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:46:48","Uptime":"0T00:08:49","UptimeSec":529,"Heap":20,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":100,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":50,"Signal":-75,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:46:48.921 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:46:48.925 MQT: stat/tasmota_291781/POWER2 = OFF
+15:46:49.432 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:46:49.436 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:46:49.679 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:46:49.925 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:46:50.144 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:46:50.174 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:46:50.216 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:46:50.224 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:46:50.439 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:46:50.483 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:46:50.495 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:46:50","Uptime":"0T00:08:51","UptimeSec":531,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":102,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":46,"Signal":-77,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:46:50.522 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:46:50.525 MQT: stat/tasmota_291781/POWER2 = OFF
+15:46:50.532 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:46:50","Uptime":"0T00:08:51","UptimeSec":531,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":102,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":46,"Signal":-77,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:46:50.564 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:46:50.568 MQT: stat/tasmota_291781/POWER2 = OFF
+15:46:51.073 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:46:51.077 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:46:51.125 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:46:51.347 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:46:51.376 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:46:51.626 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:46:51.668 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:46:51.676 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:46:51.892 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:46:51.936 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:46:51.949 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:46:51","Uptime":"0T00:08:52","UptimeSec":532,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":95,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":50,"Signal":-75,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:46:51.976 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:46:51.979 MQT: stat/tasmota_291781/POWER2 = OFF
+15:46:51.986 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:46:51","Uptime":"0T00:08:52","UptimeSec":532,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":95,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":50,"Signal":-75,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:46:52.002 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:46:52.005 MQT: stat/tasmota_291781/POWER2 = OFF
+15:46:52.512 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:46:52.516 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:46:52.580 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:46:52.790 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:46:53.051 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:46:53.252 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:46:53.295 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:46:53.303 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:46:53.335 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:46:53.353 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:46:53.554 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:46:53.755 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:46:53.794 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:46:53.804 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:46:53.939 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:46:53.969 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:46:54.215 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:46:54.415 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:46:54.454 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:46:54.460 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:46:54.596 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:46:54.625 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:46:54.669 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:46:54.679 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:46:54","Uptime":"0T00:08:55","UptimeSec":535,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":61,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":48,"Signal":-76,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:46:54.703 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:46:54.710 MQT: stat/tasmota_291781/POWER2 = OFF
+15:46:54.716 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:46:54","Uptime":"0T00:08:55","UptimeSec":535,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":61,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":46,"Signal":-77,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:46:54.745 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:46:54.749 MQT: stat/tasmota_291781/POWER2 = OFF
+15:46:55.262 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:46:55.265 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:46:55.515 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:46:55.724 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:46:55.944 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:46:55.974 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:46:56.013 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:46:56.020 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:46:56.234 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:46:56.486 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:46:56.533 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:46:56.550 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:46:56.591 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:46:56.599 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:46:56.815 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:46:56.859 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:46:56.872 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:46:56","Uptime":"0T00:08:57","UptimeSec":537,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":70,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":44,"Signal":-78,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:46:56.898 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:46:56.901 MQT: stat/tasmota_291781/POWER2 = OFF
+15:46:56.909 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:46:56","Uptime":"0T00:08:57","UptimeSec":537,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":70,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":44,"Signal":-78,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:46:56.941 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:46:56.945 MQT: stat/tasmota_291781/POWER2 = OFF
+15:46:57.452 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:46:57.456 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:46:57.517 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:46:57.768 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:46:57.838 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:46:57.868 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:46:57.910 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:46:57.919 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:46:58.170 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:46:58.416 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:46:58.636 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:46:58.664 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:46:58.704 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:46:58.713 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:46:58.928 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:46:59.182 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:46:59.253 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:46:59.282 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:46:59.322 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:46:59.331 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:46:59.544 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:46:59.746 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:46:59.866 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:46:59.895 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:46:59.934 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:46:59.941 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:00.155 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:00.406 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:00.454 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:00.495 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:00.535 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:00.543 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:00.799 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:01.043 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:01.262 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:01.292 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:01.332 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:01.340 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:01.557 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:01.760 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:01.879 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:01.909 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:01.949 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:01.957 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:02.172 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:02.423 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:02.469 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:02.490 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:02.534 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:02.541 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:02.756 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:02.959 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:03.080 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:03.111 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:03.151 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:03.157 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:03.413 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:03.627 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:03.828 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:03.869 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:03.876 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:03.908 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.3"
+15:47:03.926 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:03.972 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:47:03.984 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:47:03","Uptime":"0T00:09:04","UptimeSec":544,"Heap":23,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":55,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":50,"Signal":-75,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:47:04.000 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:47:04.003 MQT: stat/tasmota_291781/POWER2 = OFF
+15:47:04.011 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:47:04","Uptime":"0T00:09:05","UptimeSec":545,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":55,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":50,"Signal":-75,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:47:04.044 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:47:04.048 MQT: stat/tasmota_291781/POWER2 = OFF
+15:47:04.554 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:47:04.558 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:47:04.605 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:04.855 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:05.114 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:05.154 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:05.163 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:05.196 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.3"
+15:47:05.214 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:05.464 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:05.665 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:05.707 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:05.715 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:05.748 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:05.765 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:06.167 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:06.397 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:06.437 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:06.445 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:06.478 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:06.502 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:06.704 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:06.953 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:06.993 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:07.003 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:07.139 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:07.169 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:07.371 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:07.572 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:07.613 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:07.623 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:07.758 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:07.788 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:07.991 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:08.180 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:08.221 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:08.230 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:08.364 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:08.394 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:08.597 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:08.970 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:09.021 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:09.029 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:09.246 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:09.312 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:09.329 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:09.429 MQT: tele/tasmota_291781/HASS_STATE = {"Version":"11.1.0(tasmota)","BuildDateTime":"2023-03-26T17:08:51","Module or Template":"Generic","RestartReason":"Software/System restart","Uptime":"0T00:09:10","Hostname":"tasmota-291781-6017","IPAddress":"192.168.1.20","RSSI":"46","Signal (dBm)":"-77","WiFi LinkCount":1,"WiFi Downtime":"0T00:00:06","MqttCount":1,"LoadAvg":67}
+15:47:09.580 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:09.620 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:09.628 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:09.844 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:09.909 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:09.927 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:10.179 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:10.220 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:10.228 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:10.443 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:10.487 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:47:10.498 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:47:10","Uptime":"0T00:09:11","UptimeSec":551,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":49,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":46,"Signal":-77,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:47:10.524 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:47:10.530 MQT: stat/tasmota_291781/POWER2 = OFF
+15:47:10.536 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:47:10","Uptime":"0T00:09:11","UptimeSec":551,"Heap":22,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":49,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":48,"Signal":-76,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:47:10.565 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:47:10.569 MQT: stat/tasmota_291781/POWER2 = OFF
+15:47:11.077 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:47:11.080 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:47:11.145 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:11.165 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:11.417 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:11.446 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:47:11","Uptime":"0T00:09:12","UptimeSec":552,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":99,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":46,"Signal":-77,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:47:11.482 MQT: tele/tasmota_291781/SENSOR = {"Time":"2023-04-14T15:47:11","DS18B20":{"Id":"01144C3877AA","Temperature":11.4},"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0},"TempUnit":"C"}
+15:47:11.735 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:11.776 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:11.784 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:11.998 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:12.043 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:47:12.055 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:47:12","Uptime":"0T00:09:13","UptimeSec":553,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":106,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":46,"Signal":-77,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:47:12.082 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:47:12.085 MQT: stat/tasmota_291781/POWER2 = OFF
+15:47:12.092 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:47:12","Uptime":"0T00:09:13","UptimeSec":553,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":106,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":48,"Signal":-76,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:47:12.124 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:47:12.128 MQT: stat/tasmota_291781/POWER2 = OFF
+15:47:12.635 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:47:12.640 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:47:12.702 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:12.723 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:12.975 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:13.226 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:13.268 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:13.277 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:13.412 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:13.443 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:13.646 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:13.896 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:13.936 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:13.944 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:14.030 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:14.059 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:14.401 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:14.633 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:14.673 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:14.681 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:14.715 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:14.734 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:14.937 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:15.185 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:15.228 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:15.235 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:15.322 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:15.352 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:15.605 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:15.852 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:15.892 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:15.900 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:15.934 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:15.951 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:16.202 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:16.402 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:16.444 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:16.453 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:16.559 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:16.576 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:16.619 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:47:16.632 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:47:16","Uptime":"0T00:09:17","UptimeSec":557,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":47,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":48,"Signal":-76,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:47:16.658 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:47:16.661 MQT: stat/tasmota_291781/POWER2 = OFF
+15:47:16.669 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:47:16","Uptime":"0T00:09:17","UptimeSec":557,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":47,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":48,"Signal":-76,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:47:16.701 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:47:16.705 MQT: stat/tasmota_291781/POWER2 = OFF
+15:47:17.211 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:47:17.215 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:47:17.444 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:17.657 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:17.905 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:17.946 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:17.954 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:17.988 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:18.002 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:18.251 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:18.451 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:18.493 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:18.501 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:18.588 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:18.617 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:18.869 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:19.122 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:19.162 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:19.170 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:19.204 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:19.222 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:19.423 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:19.673 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:19.715 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:19.723 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:19.807 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:19.837 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:19.884 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:47:19.896 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:47:19","Uptime":"0T00:09:20","UptimeSec":560,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":52,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":50,"Signal":-75,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:47:19.925 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:47:19.928 MQT: stat/tasmota_291781/POWER2 = OFF
+15:47:19.934 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:47:19","Uptime":"0T00:09:20","UptimeSec":560,"Heap":20,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":52,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":48,"Signal":-76,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:47:19.965 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:47:19.969 MQT: stat/tasmota_291781/POWER2 = OFF
+15:47:20.475 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:47:20.479 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:47:20.732 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:20.977 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:21.147 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:21.176 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:21.216 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:21.221 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:21.437 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:21.650 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:21.769 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:21.797 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:21.837 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:21.845 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:22.063 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:22.314 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:22.360 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:22.380 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:22.420 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:22.428 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:22.646 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:22.848 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:22.967 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:22.997 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:23.032 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:23.040 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:23.397 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:23.607 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:23.776 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:23.806 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:23.846 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:23.854 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:24.072 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:24.323 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:24.369 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:24.387 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:24.429 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:24.437 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:24.656 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:24.700 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:47:24.711 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:47:24","Uptime":"0T00:09:25","UptimeSec":565,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":46,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":48,"Signal":-76,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:47:24.739 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:47:24.742 MQT: stat/tasmota_291781/POWER2 = OFF
+15:47:24.748 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:47:24","Uptime":"0T00:09:25","UptimeSec":565,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":46,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":46,"Signal":-77,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:47:24.780 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:47:24.784 MQT: stat/tasmota_291781/POWER2 = OFF
+15:47:25.291 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:47:25.294 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:47:25.339 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:25.590 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:25.662 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:25.690 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:25.730 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:25.738 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:26.134 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:26.381 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:26.502 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:26.531 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:26.573 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:26.581 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:26.798 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:27.047 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:27.119 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:27.149 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:27.191 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:27.200 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:27.414 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:27.624 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:27.744 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:27.773 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:27.816 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:27.824 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:28.040 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:28.243 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:28.315 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:28.343 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:28.383 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:28.391 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:28.805 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:29.051 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:29.171 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:29.201 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:29.243 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:29.251 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:29.465 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:29.717 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:29.788 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:29.815 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:29.859 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:29.865 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:30.085 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:30.287 MQT: stat/tasmota_291781/RESULT = {"T1":69,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:30.409 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:30.438 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:30.480 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:30.488 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:30.704 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:30.905 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:30.978 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:31.000 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:31.040 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:31.048 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:31.263 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:31.466 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:31.584 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:31.614 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:31.657 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:31.665 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:31.874 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:31.920 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:47:31.932 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:47:31","Uptime":"0T00:09:32","UptimeSec":572,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":44,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":50,"Signal":-75,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:47:31.959 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:47:31.962 MQT: stat/tasmota_291781/POWER2 = OFF
+15:47:31.969 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:47:31","Uptime":"0T00:09:32","UptimeSec":572,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":44,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":50,"Signal":-75,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:47:32.002 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:47:32.006 MQT: stat/tasmota_291781/POWER2 = OFF
+15:47:32.513 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:47:32.517 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:47:32.565 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:32.817 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:32.988 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:33.021 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:33.061 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:33.069 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:33.284 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:33.535 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:33.581 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:33.600 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:33.642 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:33.650 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:33.864 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:34.119 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:34.190 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:34.218 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:34.260 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:34.269 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:34.483 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:34.734 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:34.785 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:34.990 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:35.030 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:35.039 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:35.253 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:35.505 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:35.552 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:35.572 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:35.612 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:35.620 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:35.835 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:36.088 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:36.134 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:36.149 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:36.188 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:36.195 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:36.407 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:36.658 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:36.703 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:36.719 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:36.758 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:36.763 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:36.975 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:37.167 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:37.288 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:37.317 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:37.357 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:37.362 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:37.715 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:37.962 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:38.093 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:38.122 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:38.164 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:38.172 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:38.387 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:38.639 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:38.710 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:38.740 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:38.782 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:38.790 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:39.001 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:39.045 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:47:39.058 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:47:39","Uptime":"0T00:09:40","UptimeSec":580,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":38,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":44,"Signal":-78,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:47:39.084 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:47:39.087 MQT: stat/tasmota_291781/POWER2 = OFF
+15:47:39.095 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:47:39","Uptime":"0T00:09:40","UptimeSec":580,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":38,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":46,"Signal":-77,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:47:39.127 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:47:39.130 MQT: stat/tasmota_291781/POWER2 = OFF
+15:47:39.637 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:47:39.641 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:47:39.701 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:39.904 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:40.029 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.3"
+15:47:40.059 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:40.101 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:40.109 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:40.418 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:40.667 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:40.714 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.3"
+15:47:40.731 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:40.983 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:41.178 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:41.220 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:41.228 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:41.315 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.3"
+15:47:41.343 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:41.387 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:47:41.399 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:47:41","Uptime":"0T00:09:42","UptimeSec":582,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":65,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":48,"Signal":-76,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:47:41.426 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:47:41.430 MQT: stat/tasmota_291781/POWER2 = OFF
+15:47:41.436 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:47:41","Uptime":"0T00:09:42","UptimeSec":582,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":65,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":48,"Signal":-76,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:47:41.466 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:47:41.470 MQT: stat/tasmota_291781/POWER2 = OFF
+15:47:41.977 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:47:41.980 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:47:42.037 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:42.289 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:42.539 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:42.578 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:42.584 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:42.615 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:42.631 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:42.833 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:43.126 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:43.167 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:43.175 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:43.390 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:43.453 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:43.488 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:43.689 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:43.729 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:43.736 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:43.952 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:44.015 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:44.032 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:44.233 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:44.273 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:44.283 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:44.499 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:44.701 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:44.747 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:44.765 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:44.806 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:44.815 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:45.035 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:45.285 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:45.333 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:45.352 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:45.391 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:45.399 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:45.773 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:46.022 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:46.142 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:46.170 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:46.210 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:46.217 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:46.434 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:46.479 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:47:46.491 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:47:46","Uptime":"0T00:09:47","UptimeSec":587,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":51,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":46,"Signal":-77,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:47:46.516 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:47:46.521 MQT: stat/tasmota_291781/POWER2 = OFF
+15:47:46.528 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:47:46","Uptime":"0T00:09:47","UptimeSec":587,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":51,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":46,"Signal":-77,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:47:46.561 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:47:46.565 MQT: stat/tasmota_291781/POWER2 = OFF
+15:47:47.070 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:47:47.074 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:47:47.123 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:47.374 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:47.443 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:47.473 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:47.512 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:47.518 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:47.731 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:47.982 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:48.050 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:48.080 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:48.119 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:48.125 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:48.479 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:48.730 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:48.851 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:48.880 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:48.922 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:48.930 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:49.138 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:49.181 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:47:49.195 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:47:49","Uptime":"0T00:09:50","UptimeSec":590,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":58,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":48,"Signal":-76,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:47:49.221 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:47:49.224 MQT: stat/tasmota_291781/POWER2 = OFF
+15:47:49.232 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:47:49","Uptime":"0T00:09:50","UptimeSec":590,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":58,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":46,"Signal":-77,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:47:49.264 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:47:49.267 MQT: stat/tasmota_291781/POWER2 = OFF
+15:47:49.774 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:47:49.777 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:47:49.837 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:50.097 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:50.169 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:50.198 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:50.240 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:50.247 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:50.463 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:50.508 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:47:50.520 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:47:50","Uptime":"0T00:09:51","UptimeSec":591,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":86,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":46,"Signal":-77,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:47:50.546 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:47:50.550 MQT: stat/tasmota_291781/POWER2 = OFF
+15:47:50.557 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:47:50","Uptime":"0T00:09:51","UptimeSec":591,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":86,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":48,"Signal":-76,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:47:50.588 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:47:50.592 MQT: stat/tasmota_291781/POWER2 = OFF
+15:47:51.099 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:47:51.102 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:47:51.332 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:51.578 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:51.624 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:51.643 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:51.684 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:51.692 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:51.909 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:52.161 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:52.207 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:52.226 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:52.265 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:52.274 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:52.489 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:52.534 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:47:52.546 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:47:52","Uptime":"0T00:09:53","UptimeSec":593,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":84,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":44,"Signal":-78,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:47:52.572 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:47:52.576 MQT: stat/tasmota_291781/POWER2 = OFF
+15:47:52.583 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:47:52","Uptime":"0T00:09:53","UptimeSec":593,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":84,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":44,"Signal":-78,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:47:52.612 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:47:52.618 MQT: stat/tasmota_291781/POWER2 = OFF
+15:47:53.125 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:47:53.129 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:47:53.172 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:53.423 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:53.493 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:53.523 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:53.563 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:53.571 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:53.787 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:54.083 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:54.314 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:54.354 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:54.363 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:54.395 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:54.417 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:54.667 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:54.916 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:54.958 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:54.966 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:54.998 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:55.009 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:55.055 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:47:55.067 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:47:55","Uptime":"0T00:09:56","UptimeSec":596,"Heap":23,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":74,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":48,"Signal":-76,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:47:55.093 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:47:55.096 MQT: stat/tasmota_291781/POWER2 = OFF
+15:47:55.104 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:47:55","Uptime":"0T00:09:56","UptimeSec":596,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":74,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":48,"Signal":-76,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:47:55.137 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:47:55.141 MQT: stat/tasmota_291781/POWER2 = OFF
+15:47:55.647 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:47:55.651 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:47:55.709 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:55.960 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:56.169 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:56.209 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:56.217 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:56.249 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:56.268 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:56.469 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:56.815 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:56.855 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:56.861 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:57.081 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:57.144 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:57.161 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:57.411 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:57.452 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:57.460 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:57.691 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:57.736 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:47:57.748 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:47:57","Uptime":"0T00:09:58","UptimeSec":598,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":67,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":52,"Signal":-74,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:47:57.774 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:47:57.777 MQT: stat/tasmota_291781/POWER2 = OFF
+15:47:57.784 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:47:57","Uptime":"0T00:09:58","UptimeSec":598,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":67,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":52,"Signal":-74,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:47:57.818 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:47:57.822 MQT: stat/tasmota_291781/POWER2 = OFF
+15:47:58.328 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:47:58.332 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:47:58.394 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:58.416 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:47:58.668 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:47:58.869 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:58.910 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:47:58.918 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:47:59.012 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:47:59.030 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:47:59.074 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:47:59.086 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:47:59","Uptime":"0T00:10:00","UptimeSec":600,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":94,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":46,"Signal":-77,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:47:59.111 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:47:59.116 MQT: stat/tasmota_291781/POWER2 = OFF
+15:47:59.123 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:47:59","Uptime":"0T00:10:00","UptimeSec":600,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":94,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":46,"Signal":-77,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:47:59.155 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:47:59.159 MQT: stat/tasmota_291781/POWER2 = OFF
+15:47:59.665 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:47:59.669 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:47:59.706 APP: Serial logging disabled
+15:47:59.919 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:00.174 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:00.344 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:00.374 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:00.414 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:00.422 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:00.657 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:00.908 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:00.954 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:00.973 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:01.012 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:01.020 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:01.236 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:01.281 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:48:01.293 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:01","Uptime":"0T00:10:02","UptimeSec":602,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":76,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":50,"Signal":-75,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:01.297 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:48:01.300 MQT: stat/tasmota_291781/POWER2 = OFF
+15:48:01.306 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:01","Uptime":"0T00:10:02","UptimeSec":602,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":76,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":50,"Signal":-75,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:01.309 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:48:01.312 MQT: stat/tasmota_291781/POWER2 = OFF
+15:48:01.818 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:48:01.821 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:48:01.879 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:02.135 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:02.206 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:02.234 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:02.274 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:02.282 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:02.644 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:02.688 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:48:02.700 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:02","Uptime":"0T00:10:03","UptimeSec":603,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":98,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":46,"Signal":-77,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:02.704 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:48:02.706 MQT: stat/tasmota_291781/POWER2 = OFF
+15:48:02.714 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:02","Uptime":"0T00:10:03","UptimeSec":603,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":98,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":46,"Signal":-77,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:02.718 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:48:02.720 MQT: stat/tasmota_291781/POWER2 = OFF
+15:48:03.225 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:48:03.229 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:48:03.277 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:03.479 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:03.601 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:03.631 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:03.671 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:03.678 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:03.893 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:04.145 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:04.191 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:04.208 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:04.248 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:04.256 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:04.472 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:04.517 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:48:04.528 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:04","Uptime":"0T00:10:05","UptimeSec":605,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":83,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":44,"Signal":-78,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:04.532 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:48:04.535 MQT: stat/tasmota_291781/POWER2 = OFF
+15:48:04.541 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:04","Uptime":"0T00:10:05","UptimeSec":605,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":83,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":44,"Signal":-78,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:04.544 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:48:04.546 MQT: stat/tasmota_291781/POWER2 = OFF
+15:48:05.053 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:48:05.058 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:48:05.103 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:05.330 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:05.544 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:05.576 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:05.615 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:05.623 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:05.839 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:05.884 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:48:05.897 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:05","Uptime":"0T00:10:06","UptimeSec":606,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":110,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":46,"Signal":-77,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:05.901 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:48:05.904 MQT: stat/tasmota_291781/POWER2 = OFF
+15:48:05.910 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:05","Uptime":"0T00:10:06","UptimeSec":606,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":110,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":46,"Signal":-77,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:05.913 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:48:05.916 MQT: stat/tasmota_291781/POWER2 = OFF
+15:48:06.422 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:48:06.425 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:48:06.473 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:06.725 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:06.796 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:06.824 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:06.863 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:06.871 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:07.086 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:07.337 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:07.408 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:07.442 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:07.482 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:07.490 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:07.705 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:08.054 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:08.203 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:08.232 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:08.273 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:08.281 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:08.497 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:08.750 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:08.819 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:08.849 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:08.890 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:08.898 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:09.112 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:09.365 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:09.411 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:09.429 MQT: tele/tasmota_291781/HASS_STATE = {"Version":"11.1.0(tasmota)","BuildDateTime":"2023-03-26T17:08:51","Module or Template":"Generic","RestartReason":"Software/System restart","Uptime":"0T00:10:10","Hostname":"tasmota-291781-6017","IPAddress":"192.168.1.20","RSSI":"48","Signal (dBm)":"-76","WiFi LinkCount":1,"WiFi Downtime":"0T00:00:06","MqttCount":1,"LoadAvg":48}
+15:48:09.450 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:09.495 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:09.501 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:09.715 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:09.759 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:48:09.771 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:09","Uptime":"0T00:10:10","UptimeSec":610,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":52,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":46,"Signal":-77,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:09.776 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:48:09.779 MQT: stat/tasmota_291781/POWER2 = OFF
+15:48:09.785 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:09","Uptime":"0T00:10:10","UptimeSec":610,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":52,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":48,"Signal":-76,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:09.788 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:48:09.791 MQT: stat/tasmota_291781/POWER2 = OFF
+15:48:10.297 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:48:10.302 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:48:10.345 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:11.112 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:11.155 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:48:11.167 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:11","Uptime":"0T00:10:12","UptimeSec":612,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":98,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":48,"Signal":-76,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:11.172 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:48:11.175 MQT: stat/tasmota_291781/POWER2 = OFF
+15:48:11.180 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:11","Uptime":"0T00:10:12","UptimeSec":612,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":98,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":46,"Signal":-77,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:11.184 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:48:11.187 MQT: stat/tasmota_291781/POWER2 = OFF
+15:48:11.693 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:48:11.696 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:48:11.741 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:11","Uptime":"0T00:10:12","UptimeSec":612,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":98,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":48,"Signal":-76,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:11.754 MQT: tele/tasmota_291781/SENSOR = {"Time":"2023-04-14T15:48:11","DS18B20":{"Id":"01144C3877AA","Temperature":11.4},"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0},"TempUnit":"C"}
+15:48:11.780 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:11.000 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:12.024 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:12.272 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:12.312 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:12.320 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:12.536 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:12.658 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:12.688 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:12.889 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:12.929 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:12.936 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:13.162 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:13.206 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:48:13.218 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:13","Uptime":"0T00:10:14","UptimeSec":614,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":67,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":48,"Signal":-76,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:13.222 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:48:13.225 MQT: stat/tasmota_291781/POWER2 = OFF
+15:48:13.231 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:13","Uptime":"0T00:10:14","UptimeSec":614,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":67,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":46,"Signal":-77,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:13.235 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:48:13.238 MQT: stat/tasmota_291781/POWER2 = OFF
+15:48:13.744 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:48:13.747 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:48:13.000 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:14.062 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:14.081 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:14.283 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:14.323 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:14.331 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:14.546 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:14.590 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:48:14.603 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:14","Uptime":"0T00:10:15","UptimeSec":615,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":106,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":46,"Signal":-77,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:14.607 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:48:14.610 MQT: stat/tasmota_291781/POWER2 = OFF
+15:48:14.616 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:14","Uptime":"0T00:10:15","UptimeSec":615,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":106,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":46,"Signal":-77,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:14.620 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:48:14.622 MQT: stat/tasmota_291781/POWER2 = OFF
+15:48:15.129 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:48:15.132 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:48:15.194 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:15.212 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:15.415 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:15.616 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:15.656 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:15.664 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:15.879 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:15.944 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:15.961 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:16.164 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:16.204 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:16.212 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:16.429 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:16.501 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:16.717 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:16.947 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:16.987 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:16.994 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:17.208 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:17.273 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:17.290 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:17.541 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:17.582 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:17.590 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:17.806 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:17.869 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:17.887 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:18.088 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:18.128 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:18.136 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:18.351 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:18.396 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:48:18.408 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:18","Uptime":"0T00:10:19","UptimeSec":619,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":52,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":46,"Signal":-77,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:18.413 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:48:18.416 MQT: stat/tasmota_291781/POWER2 = OFF
+15:48:18.421 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:18","Uptime":"0T00:10:19","UptimeSec":619,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":52,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":46,"Signal":-77,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:18.425 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:48:18.427 MQT: stat/tasmota_291781/POWER2 = OFF
+15:48:18.933 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:48:18.936 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:48:18.998 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:19.010 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:19.389 MQT: stat/tasmota_291781/RESULT = {"T1":69,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:19.633 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:19.673 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:19.681 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:19.867 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:19.897 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:20.110 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:20.359 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:20.399 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:20.407 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:20.512 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:20.529 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:20.732 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:20.934 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:20.976 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:20.984 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:21.059 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:21.089 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:21.132 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:48:21.145 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:21","Uptime":"0T00:10:22","UptimeSec":622,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":57,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":46,"Signal":-77,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:21.150 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:48:21.153 MQT: stat/tasmota_291781/POWER2 = OFF
+15:48:21.159 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:21","Uptime":"0T00:10:22","UptimeSec":622,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":57,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":46,"Signal":-77,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:21.163 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:48:21.165 MQT: stat/tasmota_291781/POWER2 = OFF
+15:48:21.672 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:48:21.675 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:48:21.733 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:21.985 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:22.229 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:22.270 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:22.278 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:22.310 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:22.327 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:22.530 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:22.775 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:22.815 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:22.822 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:23.050 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:23.095 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:48:23.107 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:23","Uptime":"0T00:10:24","UptimeSec":624,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":81,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":46,"Signal":-77,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:23.112 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:48:23.115 MQT: stat/tasmota_291781/POWER2 = OFF
+15:48:23.120 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:23","Uptime":"0T00:10:24","UptimeSec":624,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":81,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":46,"Signal":-77,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:23.124 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:48:23.127 MQT: stat/tasmota_291781/POWER2 = OFF
+15:48:23.633 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:48:23.636 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:48:23.698 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:23.730 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:23.983 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:24.180 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:24.222 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:24.230 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:24.334 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.3"
+15:48:24.350 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:24.602 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:24.851 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:24.891 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:24.898 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:24.930 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.3"
+15:48:24.949 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:25.155 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:25.404 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:25.444 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:25.453 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:25.519 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:25.535 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:25.928 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:26.157 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:26.198 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:26.206 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:26.238 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:26.256 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:26.506 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:26.755 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:26.797 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:26.805 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:26.837 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:26.855 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:27.105 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:27.306 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:27.347 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:27.355 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:27.407 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:27.438 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:27.640 MQT: stat/tasmota_291781/RESULT = {"T1":69,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:27.889 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:27.930 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:27.938 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:28.026 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:28.042 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:28.294 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:28.494 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:28.535 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:28.543 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:28.594 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:28.613 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:28.656 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:48:28.668 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:28","Uptime":"0T00:10:29","UptimeSec":629,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":45,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":48,"Signal":-76,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:28.673 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:48:28.676 MQT: stat/tasmota_291781/POWER2 = OFF
+15:48:28.681 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:28","Uptime":"0T00:10:29","UptimeSec":629,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":45,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":48,"Signal":-76,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:28.685 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:48:28.688 MQT: stat/tasmota_291781/POWER2 = OFF
+15:48:29.210 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:48:29.213 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:48:29.467 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:29.677 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:29.897 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.3"
+15:48:29.927 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:29.969 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:29.977 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:30.193 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:30.237 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:48:30.249 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:30","Uptime":"0T00:10:31","UptimeSec":631,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":80,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":46,"Signal":-77,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:30.255 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:48:30.258 MQT: stat/tasmota_291781/POWER2 = OFF
+15:48:30.264 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:30","Uptime":"0T00:10:31","UptimeSec":631,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":80,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":48,"Signal":-76,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:30.268 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:48:30.271 MQT: stat/tasmota_291781/POWER2 = OFF
+15:48:30.777 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:48:30.781 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:48:30.828 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:31.080 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:31.151 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.3"
+15:48:31.182 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:31.222 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:31.230 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:31.444 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:31.657 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:31.779 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.3"
+15:48:31.809 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:31.849 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:31.857 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:32.072 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:32.274 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:32.345 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.3"
+15:48:32.375 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:32.417 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:32.424 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:32.835 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:33.080 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:33.200 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.3"
+15:48:33.231 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:33.270 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:33.278 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:33.492 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:33.695 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:33.815 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:33.845 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:33.885 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:33.893 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:34.106 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:34.309 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:34.429 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:34.459 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:34.499 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:34.507 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:34.721 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:34.973 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:35.012 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:35.030 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:35.071 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:35.079 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:35.294 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:35.545 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:35.593 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:35.611 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:35.650 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:35.658 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:35.968 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:36.210 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:36.429 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:36.459 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:36.500 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:36.508 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:36.724 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:36.926 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:37.059 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:37.089 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:37.130 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:37.138 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:37.352 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:37.396 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:48:37.408 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:37","Uptime":"0T00:10:38","UptimeSec":638,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":40,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":50,"Signal":-75,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:37.413 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:48:37.416 MQT: stat/tasmota_291781/POWER2 = OFF
+15:48:37.423 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:37","Uptime":"0T00:10:38","UptimeSec":638,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":40,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":50,"Signal":-75,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:37.427 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:48:37.430 MQT: stat/tasmota_291781/POWER2 = OFF
+15:48:37.937 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:48:37.941 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:48:37.999 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:38.249 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:38.320 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:38.350 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:38.390 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:38.398 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:38.827 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:39.074 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:39.195 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:39.224 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:39.264 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:39.273 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:39.489 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:39.692 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:39.812 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:39.841 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:39.881 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:39.890 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:40.104 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:40.354 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:40.399 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:40.422 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:40.465 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:40.471 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:40.685 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:40.888 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:40.007 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:41.018 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:41.058 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:41.066 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:41.414 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:41.624 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:41.794 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:41.824 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:41.864 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:41.872 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:42.105 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:42.357 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:42.402 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:42.423 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:42.465 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:42.473 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:42.688 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:42.891 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:43.012 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:43.041 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:43.244 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:43.444 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:43.486 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:43.492 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:43.639 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:43.670 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:43.713 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:48:43.722 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:43","Uptime":"0T00:10:44","UptimeSec":644,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":41,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":44,"Signal":-78,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:43.726 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:48:43.729 MQT: stat/tasmota_291781/POWER2 = OFF
+15:48:43.734 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:43","Uptime":"0T00:10:44","UptimeSec":644,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":41,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":44,"Signal":-78,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:43.738 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:48:43.741 MQT: stat/tasmota_291781/POWER2 = OFF
+15:48:44.246 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:48:44.249 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:48:44.474 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:44.723 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:44.943 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:44.973 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:45.012 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:45.021 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:45.236 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:45.280 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:48:45.291 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:45","Uptime":"0T00:10:46","UptimeSec":646,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":73,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":44,"Signal":-78,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:45.296 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:48:45.299 MQT: stat/tasmota_291781/POWER2 = OFF
+15:48:45.307 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:45","Uptime":"0T00:10:46","UptimeSec":646,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":73,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":44,"Signal":-78,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:45.311 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:48:45.314 MQT: stat/tasmota_291781/POWER2 = OFF
+15:48:45.820 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:48:45.823 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:48:45.881 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:46.134 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:46.205 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:46.235 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:46.275 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:46.282 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:46.498 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:46.699 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:46.819 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:46.849 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:46.889 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:46.897 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:47.210 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:47.454 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:47.674 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:47.703 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:47.743 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:47.750 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:47.965 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:48.215 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:48.286 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:48.314 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:48.354 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:48.360 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:48.574 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:48.778 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:48.897 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:48.927 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:48.966 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:48.974 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:49.188 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:49.391 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:49.512 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:49.542 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:49.582 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:49.588 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:49.891 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:50.139 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:50.184 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:50.202 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:50.243 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:50.251 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:50.465 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:50.716 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:50.787 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:50.815 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:50.856 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:50.864 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:51.080 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:51.330 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:51.377 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:51.396 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:51.435 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:51.443 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:51.672 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:51.924 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:51.970 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:51.989 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:52.024 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:52.032 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:52.246 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:52.292 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:48:52.303 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:52","Uptime":"0T00:10:53","UptimeSec":653,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":39,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":46,"Signal":-77,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:52.310 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:48:52.314 MQT: stat/tasmota_291781/POWER2 = OFF
+15:48:52.320 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:52","Uptime":"0T00:10:53","UptimeSec":653,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":39,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":46,"Signal":-77,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:52.324 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:48:52.326 MQT: stat/tasmota_291781/POWER2 = OFF
+15:48:52.833 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:48:52.836 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:48:53.077 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:53.320 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:53.365 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:53.381 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:53.422 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:53.427 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:53.655 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:53.907 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:53.953 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:53.968 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:54.007 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:54.014 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:54.230 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:54.481 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:54.527 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:54.546 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:54.586 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:54.594 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:54.809 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:55.060 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:55.106 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:55.124 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:55.165 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:55.173 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:55.390 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:55.740 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:55.842 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:55.870 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:55.910 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:55.918 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:56.134 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:56.337 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:56.409 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:56.437 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:56.479 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:56.487 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:56.701 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:56.953 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:57.012 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:57.042 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:57.084 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:57.092 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:57.307 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:57.558 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:57.605 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:57.622 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:57.662 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:57.669 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:57.884 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:58.096 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:58.218 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:58.383 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:58.424 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:58.432 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:58.652 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:48:58.903 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:48:58.950 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:48:58.969 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:59.007 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:48:59.015 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:48:59.230 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:48:59.276 RUL: EVENT#TEMP_DEMAND<%MEM3% performs "Power2 1"
+15:48:59.287 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:59","Uptime":"0T00:11:00","UptimeSec":660,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":47,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":48,"Signal":-76,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:59.292 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:48:59.295 MQT: stat/tasmota_291781/POWER2 = OFF
+15:48:59.301 MQT: tele/tasmota_291781/STATE = {"Time":"2023-04-14T15:48:59","Uptime":"0T00:11:00","UptimeSec":660,"Heap":21,"SleepMode":"Dynamic","Sleep":50,"LoadAvg":47,"MqttCount":1,"POWER1":"OFF","POWER2":"OFF","Wifi":{"AP":1,"SSId":"tom5_ext","BSSId":"00:24:FE:01:F1:AA","Channel":9,"Mode":"11n","RSSI":46,"Signal":-77,"LinkCount":1,"Downtime":"0T00:00:06"}}
+15:48:59.305 MQT: stat/tasmota_291781/RESULT = {"POWER2":"OFF"}
+15:48:59.308 MQT: stat/tasmota_291781/POWER2 = OFF
+15:48:59.814 MQT: stat/tasmota_291781/SHUTTER1 = 0
+15:48:59.818 MQT: stat/tasmota_291781/RESULT = {"Shutter1":{"Position":0,"Direction":0,"Target":0,"Tilt":0}}
+15:48:59.877 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:49:00.099 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:49:00.130 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
+15:49:00.382 MQT: stat/tasmota_291781/RESULT = {"Event":"Done"}
+15:49:00.422 RUL: EVENT#CTRL_READY>%MEM1% performs "var1 0"
+15:49:00.430 MQT: stat/tasmota_291781/RESULT = {"Var1":"0"}
+15:49:00.666 MQT: stat/tasmota_291781/RESULT = {"Var1":"1"}
+15:49:00.731 RUL: DS18B20#TEMPERATURE performs "Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=11.4"
+15:49:00.747 MQT: stat/tasmota_291781/RESULT = {"T1":70,"T2":0,"T3":0,"T4":0,"T5":0,"T6":0,"T7":0,"T8":0}
