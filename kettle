@@ -1,24 +1,24 @@
       - name: "Kettle_OK1"
         state: >-
-         {% if  states('sensor.FM3_Prologe_109_temp_zew')|float  <=21 and states('sensor.FM3_Prologe_109_wilg_zew')|float >=60 %} 
+         {% if  states('sensor.FM3_Nexus_106_temp_zew')|float  <=21 and states('sensor.FM3_Nexus_106_wilg_zew')|float >=60 %} 
            cold
-         {% elif states('sensor.FM3_Prologe_109_temp_zew')|float >=23 and states('sensor.FM3_Prologe_109_wilg_zew')|float >=60 %}
+         {% elif states('sensor.FM3_Nexus_106_temp_zew')|float >=23 and states('sensor.FM3_Nexus_106_wilg_zew')|float >=60 %}
            hot
-         {% elif states('sensor.FM3_Prologe_109_temp_zew')|float <21 and states('sensor.FM3_Prologe_109_wilg_zew')|float >50 %}
+         {% elif states('sensor.FM3_Nexus_106_temp_zew')|float <21 and states('sensor.FM3_Nexus_106_wilg_zew')|float >50 %}
            cold
-         {% elif states('sensor.FM3_Prologe_109_temp_zew')|float >=24 and states('sensor.FM3_Prologe_109_wilg_zew')|float >50 %}
+         {% elif states('sensor.FM3_Nexus_106_temp_zew')|float >=24 and states('sensor.FM3_Nexus_106_wilg_zew')|float >50 %}
            hot
-         {% elif states('sensor.FM3_Prologe_109_temp_zew')|float <= 21 and states('sensor.FM3_Prologe_109_wilg_zew')|float <50 and states('sensor.FM3_Prologe_109_wilg_zew')|float > 40 %}
+         {% elif states('sensor.FM3_Nexus_106_temp_zew')|float <= 21 and states('sensor.FM3_Nexus_106_wilg_zew')|float <50 and states('sensor.FM3_Nexus_106_wilg_zew')|float > 40 %}
            cold
-         {% elif states('sensor.FM3_Prologe_109_temp_zew')|float >24 and (states('sensor.FM3_Prologe_109_wilg_zew')|float <50 or states('sensor.FM3_Prologe_109_wilg_zew')|float > 40) %}
+         {% elif states('sensor.FM3_Nexus_106_temp_zew')|float >24 and (states('sensor.FM3_Nexus_106_wilg_zew')|float <50 or states('sensor.FM3_Nexus_106_wilg_zew')|float > 40) %}
            hot
-         {% elif states('sensor.FM3_Prologe_109_temp_zew')|float <22 and states('sensor.FM3_Prologe_109_wilg_zew')|float <40 %}
+         {% elif states('sensor.FM3_Nexus_106_temp_zew')|float <22 and states('sensor.FM3_Nexus_106_wilg_zew')|float <40 %}
           cold
-         {% elif states('sensor.FM3_Prologe_109_temp_zew')|float >=25 and states('sensor.FM3_Prologe_109_wilg_zew')|float >40 %}
+         {% elif states('sensor.FM3_Nexus_106_temp_zew')|float >=25 and states('sensor.FM3_Nexus_106_wilg_zew')|float >40 %}
           hot
-         {% elif states('sensor.FM3_Prologe_109_temp_zew')|float <23 and states('sensor.FM3_Prologe_109_wilg_zew')|float <30 %}
+         {% elif states('sensor.FM3_Nexus_106_temp_zew')|float <23 and states('sensor.FM3_Nexus_106_wilg_zew')|float <30 %}
           cold
-         {% elif states('sensor.FM3_Prologe_109_temp_zew')|float >=26 and states('sensor.FM3_Prologe_109_wilg_zew')|float >30 %}
+         {% elif states('sensor.FM3_Nexus_106_temp_zew')|float >=26 and states('sensor.FM3_Nexus_106_wilg_zew')|float >30 %}
           hot  
          {% else %}
             ok
