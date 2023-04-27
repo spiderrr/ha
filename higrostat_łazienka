@@ -5,7 +5,7 @@
 
 
 
-
+https://tasmota.github.io/docs/Rules/#simple-thermostat-example
 old
 12:22:07 MQT: stat/tasmota_DBEC4E/RESULT = {"Rule1":"ON","Once":"OFF","StopOnError":"OFF","Length":34,"Free":477,"Rules":"on Time#Minute|5  do rule2 1 endon"}
 12:22:07 MQT: stat/tasmota_DBEC4E/RESULT = {"Rule2":"OFF","Once":"OFF","StopOnError":"OFF","Length":135,"Free":376,"Rules":"on AM2301#Humidity do IF (%value% > 70) rule2 0; power on; delay 3000; rule2 0 else rule2 0; power off; delay 3000; rule2 0 endif endon"}
