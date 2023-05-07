@@ -17,7 +17,7 @@ new
 Rule1 
   ON system#boot DO RuleTimer1 70 ENDON 
   ON Rules#Timer=1 DO Backlog RuleTimer1 70; Power1 0; Power2 0 ENDON 
-  ON DS18B20#temperature DO Backlog RuleTimer1 70;Delay 150; event temp_demand=%value% ENDON 
+  ON DS18B20#temperature DO Backlog RuleTimer1 700 ; event temp_demand=%value% ENDON 
   ON event#temp_demand>%mem2% DO Power1 1 ENDON 
   ON event#temp_demand<%mem3% DO Power2 1 ENDON
 Example rules without temp sensor to test the thermostat rules
