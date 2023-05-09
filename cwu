@@ -12,7 +12,8 @@ Rule1
   ON event#temp_demand>%mem2% DO Power1 1 ENDON 
   ON event#temp_demand<%mem3% DO Power2 1 ENDON
 Example rules without temp sensor to test the thermostat rules
-
+https://community.home-assistant.io/t/tasmota-integration-setoption19-0/460963/3
+https://tasmota.github.io/docs/Home-Assistant/
 new
 Rule1 
   ON system#boot DO RuleTimer1 70 ENDON 
