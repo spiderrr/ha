@@ -1,10 +1,12 @@
-otmonitor:
 otgw:
+  type: tcp
   host: 192.168.1.28
   port: 6638
+  device: /dev/serial0
   relay_port: 7686
 mqtt:
-  autoconfig: true
+  enable: true
+  autoconfig: false
   broker: 10.144.91.4
   port: 1883
   username: mqtt
