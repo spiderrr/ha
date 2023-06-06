@@ -1,15 +1,15 @@
-Backlog SwitchMode1 3; Rule 1; Rule 4; TelePeriod 60; SetOption26 1; SetOption0 0; poweronstate 0; mem1 0; mem2 70; mem3 69; var1 0
+Backlog SwitchMode1 3; Rule 1; Rule 4; TelePeriod 60; SetOption26 1; SetOption0 0; poweronstate 0; mem1 0; mem2 95; mem3 94; var1 0
 Rules
 
 Backlog SwitchMode1 3; Rule 1; Rule 4; TelePeriod 60; SetOption26 1; SetOption0 0; poweronstate 0; mem1 0; mem2 70; mem3 69; var1 0
 
 Rule1 
-  ON system#boot DO RuleTimer1 70 ENDON 
+  ON system#boot DO RuleTimer1 7000 ENDON 
   ON Switch1#State DO event toggling1=%mem1% ENDON 
   ON event#toggling1=0 DO mem1 1 ENDON 
   ON event#toggling1=1 DO mem1 0 ENDON 
-  ON Rules#Timer=1 DO Backlog var1 0; RuleTimer1 70; Power 0 ENDON 
-  ON AM2301#Humidity DO Backlog var1 1; RuleTimer1 70; event ctrl_ready=1; event temp_demand=%value% ENDON 
+  ON Rules#Timer=1 DO Backlog var1 0; RuleTimer1 7000; Power 0 ENDON 
+  ON AM2301#Humidity DO Backlog var1 1; RuleTimer1 7000; event ctrl_ready=1; event temp_demand=%value% ENDON 
   ON event#ctrl_ready>%mem1% DO var1 0 ENDON 
   ON event#temp_demand>%mem2% DO Power 1 ENDON 
   ON event#temp_demand<%mem3% DO Power 0 ENDON
