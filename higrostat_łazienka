@@ -11,8 +11,9 @@ Rule1
   ON Rules#Timer=1 DO Backlog var1 0; RuleTimer1 7000; Power1 0 ENDON 
   ON AM2301#Humidity DO Backlog var1 1; RuleTimer1 7000; event ctrl_ready=1; event temp_demand=%value% ENDON 
   ON event#ctrl_ready>%mem1% DO var1 0 ENDON 
-  ON event#temp_demand>%mem2% DO Power1 1 ENDON 
   ON event#temp_demand<%mem3% DO Power1 0 ENDON
+  ON event#temp_demand>%mem2% DO Power1 1 ENDON 
+  
 Example rules without temp sensor to test the thermostat rules
 
 
