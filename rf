@@ -1,5 +1,59 @@
 https://www.gitpod.io/
+https://docs.openmqttgateway.com/upload/gitpod.html
 https://docs.platformio.org/en/latest/what-is-platformio.html
 https://blush-tyrannosaurus-wtwr4cgc.ws-eu98.gitpod.io/
 https://piolabs.com/blog/news/microsoft-leverages-platformio.html
 https://docs.openmqttgateway.com/
+
+https://github.com/1technophile/OpenMQTTGateway/releases
+https://github.com/1technophile/OpenMQTTGateway
+
+https://1technophil-openmqttgat-yuyfrsda7ao.ws-eu99.gitpod.io/
+https://blush-tyrannosaurus-wtwr4cgc.ws-eu99.gitpod.io/
+esptool
+esptool
+pip install esptool
+esptool.py --port /dev/ttyUSB0 --chip esp32 --baud 921600 --before default_reset --after hard_reset write_flash -z --f>
+esptool.py --port /dev/ttyUSB0
+ls /dev/ttyUSB0
+ls /dev/tty*
+ls /dev/ttyU
+ls /dev/ttyU*
+esptool.py --port /dev/ttyUSB0 --chip ESP82XX  --baud 921600 --before default_reset --after hard_reset write_flash -z >esptool.py --port /dev/ttyUSB0 --chip ESP8255  --baud 921600 --before default_reset --after hard_reset write_flash -z >esptool.py --port /dev/ttyUSB0 --chip esp8255  --baud 921600 --before default_reset --after hard_reset write_flash -z >esptool.py --port /dev/ttyUSB0 --chip auto  --baud 921600 --before default_reset --after hard_reset write_flash -z --f>
+esptool.py --port /dev/ttyUSB0 --chip auto  --baud 921600 --erase_all
+esptool.py --port /dev/ttyUSB0 --erase_all
+esptool.py --port /dev/ttyUSB0 --chip auto  --baud 921600 --erase_all
+esptool.py --port /dev/ttyUSB0 --chip auto  --baud 92160
+esptool.py --port /dev/ttyUSB0 --chip auto  --baud 921600 --erase_flash
+esptool.py --port /dev/ttyUSB0 --chip auto  --baud 921600 --version
+esptool.py --port /dev/ttyUSB0 --chip auto  --baud 921600
+esptool.py --port /dev/ttyUSB0 --chip esp32 --baud 921600 --before default_reset --after hard_reset write_flash -z --f>
+esptool --chip auto erase_flash
+esptool.py --chip auto erase_flash
+esptool.py --port /dev/ttyUSB0 --chip auto erase_flash
+ls /dev/tty*
+ls /dev/ttyU*
+esptool.py --port /dev/ttyUSB0 --chip auto erase_flash
+esptool.py --port /dev/ttyUSB0 --chip auto erase_flash
+esptool.py --port /dev/ttyUSB0 --chip auto write_flash /home/pi/firmware.bin
+esptool.py --port /dev/ttyUSB0 --chip auto --baud 921600 --before default_reset --after hard_reset write_flash -z --fl>esptool.py --port /dev/ttyUSB0 --chip auto --baud 921600 --before default_reset --after hard_reset write_flash -z --fl>
+apt install minicom
+minicom
+minicom
+minicom /dev/ttyUSB0
+minicom -s
+apt install screen
+reboot
+screen /dev/ttyUSB0
+screen /dev/ttyUSB0 115500
+esptool.py --port /dev/ttyUSB0 erase_flash
+esptool.py --port /dev/ttyUSB0 erase_flash
+esptool.py --port /dev/ttyUSB0 erase_flash
+esptool.py --before default_reset --after hard_reset --baud 460800 --port /dev/ttyUSB0 --chip esp8266 write_flash -z ->esptool.py --before default_reset --after hard_reset --baud 460800 --port /dev/ttyUSB0 --chip esp8266 write_flash -z ->
+screen /dev/ttyUSB0 115500
+esptool.py --port /dev/ttyUSB0 erase_flash
+esptool.py --port /dev/ttyUSB0 erase_flash
+esptool.py --port /dev/ttyUSB0 erase_flash
+esptool.py --before default_reset --after hard_reset --baud 460800 --port /dev/ttyUSB0 --chip esp8266 write_flash -z ->esptool.py --before default_reset --after hard_reset --baud 460800 --port /dev/ttyUSB0 --chip esp8266 write_flash -z ->
+reboot
+screen
