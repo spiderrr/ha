@@ -1,3 +1,6 @@
+#
+https://github.com/rvdbreemen/OTGW-firmware/wiki/
+http://192.168.1.45/
 u -
 To disable X11 on boot:
 root@linaro-alip:~# systemctl set-default multi-user.target
