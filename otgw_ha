@@ -1,0 +1,231 @@
+u -
+To disable X11 on boot:
+root@linaro-alip:~# systemctl set-default multi-user.target
+To enable X11 again:
+htop
+wget https://www.otgw.tclcode.com/download/otmonitor-x64
+ls
+otmonitor-x64
+./otmonitor-x64
+chmod 777 ./otmonitor-x64
+./otmonitor-x64
+./otmonitor-x64 --help
+./otmonitor-x64 --deamon
+./otmonitor-x64 --daemon
+./otmonitor-x64 --daemon &
+ps -A | grep otmonitor
+sudo ps -A | grep otmonitor
+sudo ps -A
+./otmonitor-x64 --daemon &
+sudo ps -A | grep otmonitor
+ps -A | grep otmonitor
+sudo ps -A | grep otmonitor
+./otmonitor-x64 --daemon &
+sudo ps -A | grep otmonitor
+sudo ps -A
+ps -A | grep otmonitor
+ps -A
+mc
+sudo mc
+/opt/otmonitor/otmonitor --daemon -f /opt/otmonitor/otmonitor.conf"
+/opt/otmonitor/otmonitor --daemon -f /opt/otmonitor/otmonitor.conf
+/opt/otmonitor/otmonitor --daemon -f /opt/otmonitor/otmonitor.conf &
+ls
+otmonitor.sh
+nano otmonitor.sh
+sudo mc
+chmod 777 otmonitor.sh
+sudo mc
+ps -A
+kill -9 233100
+reboot
+shutdown --help
+sudo systemctl reboot
+ps -A
+sudo ps -A | grep otmonitor
+sudo ps -A | grep otmon
+/etc/init.d/otmonitor.sh
+/etc/init.d/otmonitor.sh start
+sudo ps -A | grep otmon
+sudo ps -A | grep otmonitor
+/etc/init.d/otmonitor.sh start
+/etc/init.d/otmonitor.sh status
+/etc/init.d/otmonitor.sh restart
+nano /etc/init.d/otmonitor.sh
+n
+sudo mc
+/etc/init.d/otmonitor
+u -
+To disable X11 on boot:
+root@linaro-alip:~# systemctl set-default multi-user.target
+To enable X11 again:
+htop
+wget https://www.otgw.tclcode.com/download/otmonitor-x64
+ls
+otmonitor-x64
+./otmonitor-x64
+chmod 777 ./otmonitor-x64
+./otmonitor-x64
+./otmonitor-x64 --help
+./otmonitor-x64 --deamon
+./otmonitor-x64 --daemon
+./otmonitor-x64 --daemon &
+ps -A | grep otmonitor
+sudo ps -A | grep otmonitor
+sudo ps -A
+./otmonitor-x64 --daemon &
+sudo ps -A | grep otmonitor
+ps -A | grep otmonitor
+sudo ps -A | grep otmonitor
+./otmonitor-x64 --daemon &
+sudo ps -A | grep otmonitor
+sudo ps -A
+ps -A | grep otmonitor
+ps -A
+mc
+sudo mc
+/opt/otmonitor/otmonitor --daemon -f /opt/otmonitor/otmonitor.conf"
+/opt/otmonitor/otmonitor --daemon -f /opt/otmonitor/otmonitor.conf
+/opt/otmonitor/otmonitor --daemon -f /opt/otmonitor/otmonitor.conf &
+ls
+otmonitor.sh
+nano otmonitor.sh
+sudo mc
+chmod 777 otmonitor.sh
+sudo mc
+ps -A
+kill -9 233100
+reboot
+shutdown --help
+sudo systemctl reboot
+ps -A
+sudo ps -A | grep otmonitor
+sudo ps -A | grep otmon
+/etc/init.d/otmonitor.sh
+/etc/init.d/otmonitor.sh start
+sudo ps -A | grep otmon
+sudo ps -A | grep otmonitor
+/etc/init.d/otmonitor.sh start
+/etc/init.d/otmonitor.sh status
+/etc/init.d/otmonitor.sh restart
+nano /etc/init.d/otmonitor.sh
+n
+sudo mc
+/etc/init.d/otmonitor
+u -
+To disable X11 on boot:
+root@linaro-alip:~# systemctl set-default multi-user.target
+To enable X11 again:
+htop
+wget https://www.otgw.tclcode.com/download/otmonitor-x64
+ls
+otmonitor-x64
+./otmonitor-x64
+chmod 777 ./otmonitor-x64
+./otmonitor-x64
+./otmonitor-x64 --help
+./otmonitor-x64 --deamon
+./otmonitor-x64 --daemon
+./otmonitor-x64 --daemon &
+ps -A | grep otmonitor
+sudo ps -A | grep otmonitor
+sudo ps -A
+./otmonitor-x64 --daemon &
+sudo ps -A | grep otmonitor
+ps -A | grep otmonitor
+sudo ps -A | grep otmonitor
+./otmonitor-x64 --daemon &
+sudo ps -A | grep otmonitor
+sudo ps -A
+ps -A | grep otmonitor
+ps -A
+mc
+sudo mc
+/opt/otmonitor/otmonitor --daemon -f /opt/otmonitor/otmonitor.conf"
+/opt/otmonitor/otmonitor --daemon -f /opt/otmonitor/otmonitor.conf
+/opt/otmonitor/otmonitor --daemon -f /opt/otmonitor/otmonitor.conf &
+ls
+otmonitor.sh
+nano otmonitor.sh
+sudo mc
+chmod 777 otmonitor.sh
+sudo mc
+ps -A
+kill -9 233100
+reboot
+shutdown --help
+sudo systemctl reboot
+ps -A
+sudo ps -A | grep otmonitor
+sudo ps -A | grep otmon
+/etc/init.d/otmonitor.sh
+/etc/init.d/otmonitor.sh start
+sudo ps -A | grep otmon
+sudo ps -A | grep otmonitor
+/etc/init.d/otmonitor.sh start
+/etc/init.d/otmonitor.sh status
+/etc/init.d/otmonitor.sh restart
+nano /etc/init.d/otmonitor.sh
+n
+sudo mc
+/etc/init.d/otmonitor
+*********************************************************************
+pt update
+sudo apt install -t bullseye-backports firmware-amd-graphics linux-image-amd64
+apt-get install firmware-amd-graphics libgl1-mesa-dri libglx-mesa0 mesa-vulkan-drivers xserver-xorg-video-all
+apt autoremove
+apt-get install firmware-amd-graphics libgl1-mesa-dri libglx-mesa0 mesa-vulkan-drivers xserver-xorg-video-all
+sudo -i
+usermod -aG sudo pi
+sudo apt update && sudo apt dist-upgrade -y && sudo apt autoremove -y
+apt-get install -y software-properties-common apparmor-utils apt-transport-https avahi-daemon ca-certificates curl dbus jq network-manager socat
+curl -fsSL get.docker.com | sh
+wget https://github.com/home-assistant/os-agent/releases/download/1.5.1/os-agent_1.5.1_linux_x86_64.deb
+sudo dpkg -i os-agent_1.5.1_linux_x86_64.deb
+gdbus introspect --system --dest io.hass.os --object-path /io/hass/os
+wget https://github.com/home-assistant/supervised-installer/releases/latest/download/homeassistant-supervised.deb
+apt install ./homeassistant-supervised.deb
+apt htop
+apt mc
+sudo apt htop
+wget -O - https://get.hacs.xyz | bash -
+sudo wget -O - https://get.hacs.xyz | bash -
+sudo apt update && sudo apt upgrade
+sudo apt install software-properties-common apt-transport-https ca-certificates curl -y
+curl -fSsL https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor | sudo tee /usr/share/keyrings/microsoft-edge.gpg > /dev/null
+echo 'deb [signed-by=/usr/share/keyrings/microsoft-edge.gpg] https://packages.microsoft.com/repos/edge stable main' | sudo tee /etc/apt/sources.list.d/microsoft-edge.list
+sudo apt update
+sudo apt install microsoft-edge-stable
+sudo apt install microsoft-edge-stable
+sudo apt install htop
+sudo apt install mc
+sudo wget -O - https://get.hacs.xyz | bash -
+htop
+login pi
+n
+./otmonitor
+crontab -e
+/opt/otmonitor-ahf --daemon -f /opt/otmonitor/otmonitor.conf
+/opt/otmonitor --daemon -f /opt/otmonitor/otmonitor.conf
+./opt/otmonitor --daemon -f /opt/otmonitor/otmonitor.conf
+ls /opt/
+crontab -e
+/opt/otmonitor/otmonitor --daemon -f /opt/otmonitor/otmonitor.conf
+exit
+esptool.py --port /dev/ttyUSB0
+esptool.py --port /dev/ttyUSB0
+pip install esptool
+esptool.py --port /dev/ttyUSB0
+esptool write_flash 0x0 ino.bin 0x200000 fs.bin
+esptool.py write_flash 0x0 ino.bin 0x200000 fs.bin
+esptool.py --port /dev/ttyUSB0 --chip auto erase_flash
+lsusb
+ls /dev/tty
+ls /dev/tty*
+esptool.py --port /dev/ttyUSB0 --chip auto erase_flash
+esptool.py write_flash 0x0 ino.bin 0x200000 fs.bin
+ls
+esptool.py --port /dev/ttyUSB0 --chip auto  write_flash 0x0 ino.bin 0x200000 fs.bin
+cd ..
+
+
