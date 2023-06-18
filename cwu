@@ -17,11 +17,11 @@ Rule1
 
 
 Rule 2
-  on event#temp_demand>85 do VAR1 more85 break
-  on event#temp_demand>60 do VAR1 more60 break
-  ON event#temp_demand>40 DO VAR1 more40 ENDON
-  ON event#temp_demand=40 DO VAR1 equal40 ENDON
-  ON event#temp_demand<40 DO VAR1 less40 ENDON
+  on event#temp_demand>85 do VAR2 more85 break
+  on event#temp_demand>60 do VAR2 more60 break
+  ON event#temp_demand>40 DO VAR2 more40 ENDON
+  ON event#temp_demand=40 DO VAR2 equal40 ENDON
+  ON event#temp_demand<40 DO VAR2 less40 ENDON
 
 
 Example rules without temp sensor to test the thermostat rules
