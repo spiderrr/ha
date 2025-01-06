@@ -263,3 +263,8 @@ echo "Installing default server tools..."
 sudo apt-get install -y --no-install-recommends apache2 nginx mysql-server postgresql samba
 echo "Default server tools have been installed successfully."
 
+# # Check disk speed
+# echo "Checking disk speed again..."
+# sudo hdparm -Tt /dev/sda
+
+
